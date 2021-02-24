@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Our Product Inventory Site</title>
+<h1>"My very own project"</h1> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h3>Our Product Inventory Site confirmation page.</h3>
+	<p>Thank you for choosing our WebSite.</p>
+	<h4>Here is your order list:</h4>
+	<p th:text="${productName}"/>
+	 <img src="imgfolder/BestHandSoap.jpg" alt="BestHandSoap">
+	<p th:text="${mfrName}"/>
+	<p th:text="${productType}"/>
+	<p th:text="${sku}"/>
+	<h4>Visit us again....</h4>
+</body>
+</html>
